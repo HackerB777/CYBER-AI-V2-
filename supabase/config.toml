@@ -1,0 +1,4 @@
+project_id = "bcxagqaiosvsvhlkzslr"
+
+[functions.pentest-agent]
+verify_jwt = false
