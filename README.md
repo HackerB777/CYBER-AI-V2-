@@ -1,123 +1,81 @@
-<!-- Animated Header -->
+<!-- Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&color=00FF00&center=true&vCenter=true&width=800&height=70&lines=CYBER+AI+SECURITY+TOOLKIT;AI+Powered+Pentest+Platform;Offensive+%26+Defensive+Cyber+Operations" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&color=00FF00&center=true&vCenter=true&width=800&height=70&lines=CYBER+AI+SECURITY+TOOLKIT;AI+Powered+Offensive+%26+Defensive+Pentest+Platform;Built+for+Ethical+Security+Researchers" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.1.0-00ff00?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/System-Online-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Kali-Linux-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AI%20Pentest-Enabled-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Made%20for-Kali%20Linux-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI-Powered-red?style=for-the-badge"/>
 </p>
 
 ---
 
-# 🔥 CYBERAI – Advanced Security Toolkit  
-AI-powered offensive & defensive cybersecurity framework with:
-
-- AI Pentest Agent  
-- Offensive Hacking Tools  
-- Defensive Monitoring Systems  
-- Real-time Log Analyzer  
-- Automated Vulnerability & Threat Detection  
-
----
-
-# 📸 Screenshot Slider (Animated Left–Right)
+## 🔥 **CYBERAI – Advanced Security Toolkit**
+A futuristic AI-powered cybersecurity operations panel that combines **defensive systems**, **offensive hacking tools**, **AI pentest automation**, and **real-time analysis**.
 
 <p align="center">
-  <svg width="850" height="420">
-    <foreignObject width="100%" height="100%">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <style>
-          .slider {
-            width: 850px;
-            height: 420px;
-            overflow: hidden;
-            border-radius: 12px;
-            border: 2px solid #00ff00;
-          }
-          .slides {
-            display: flex;
-            width: 500%;
-            animation: slide 18s infinite;
-          }
-          .slides img {
-            width: 850px;
-            height: 420px;
-            object-fit: cover;
-          }
-          @keyframes slide {
-            0%   { transform: translateX(0%); }
-            20%  { transform: translateX(0%); }
-            25%  { transform: translateX(-100%); }
-            45%  { transform: translateX(-100%); }
-            50%  { transform: translateX(-200%); }
-            70%  { transform: translateX(-200%); }
-            75%  { transform: translateX(-300%); }
-            90%  { transform: translateX(-300%); }
-            95%  { transform: translateX(-400%); }
-            100% { transform: translateX(-400%); }
-          }
-        </style>
-
-        <div class="slider">
-          <div class="slides">
-            <img src="./assets/login.png" />
-            <img src="./assets/agent.png" />
-            <img src="./assets/defc.png" />
-            <img src="./assets/offec.png" />
-            <img src="./assets/his.png" />
-          </div>
-        </div>
-      </div>
-    </foreignObject>
-  </svg>
+  <         
+    <img src="./assets/cyberai1.png"  width="850px" />  <img src="assets/login.png"    width="850px" /> <img src="./assets/agent.png"  width="850px" />
+            
+           
+            
 </p>
 
----
 
-# ⚙️ Features  
-## 🧠 AI Pentest Agent  
-- Generates commands  
-- Reads and analyzes tool outputs  
-- Suggests exploitation paths  
-- Detects vulnerabilities automatically  
+## 🚀 **Features**
+### 🧠 AI Pentest Agent
+- Auto-executes commands  
+- Analyzes scan output  
+- Generates remediation steps  
+- Supports Nmap, Hydra, SQLMap, Metasploit, Gobuster & more  
 
-## 🛡️ Defensive Security Systems  
-- Fail2Ban  
+### 🛡️ Defensive Systems
+- Fail2ban  
 - Snort IDS  
+- ClamAV  
 - OSSEC  
 - Suricata  
-- ClamAV  
 - AIDE  
 - Rkhunter  
 - OpenVAS  
 
-## ⚔️ Offensive Toolkit  
+### ⚔️ Offensive Arsenal
 - Nmap  
 - Hydra  
 - Nikto  
 - SQLMap  
 - Aircrack-ng  
 - Metasploit  
-- John the Ripper  
-- Hashcat  
-- Gobuster  
 - Burp Suite  
+- Hashcat  
+- John the Ripper  
 
----
-
-# 🧩 Technology Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,py,js,react,tailwind,git,github,bash,cloudflare&theme=dark" />
+   <img src="./assets/defc.png"   width="850px"/>   <img src="./assets/offec.png"  width="850px"/> <img src="./assets/his.png"    width="850px" />
+           
+            
+</p>
+
+
+
+## 🧩 **Tech Stack**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,py,js,react,tailwind,raspberrypi,bash,git,github,cloudflare&theme=dark" />
 </p>
 
 ---
 
-# 📦 Installation  
+## ⚙️ **Installation**
 ```bash
-git clone https://github.com/YourUsername/YourRepo.git
-cd YourRepo
-chmod +x cybercore.sh
-./cybercore.sh --init
+
+git clone https://github.com/HackerB777/CYBER-AI-V2
+cd CYBER-AI-V2
+sudo apt update
+sudo apt install -y curl
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+npm -i
+npm run dev
+
