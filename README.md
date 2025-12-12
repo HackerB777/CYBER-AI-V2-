@@ -70,7 +70,7 @@ A futuristic AI-powered cybersecurity operations panel that combines **defensive
 ## ⚙️ **Installation**
 ```bash
 
-git clone https://github.com/HackerB777/CYBER-AI-V2
+git clone https://github.com/HackerB777/CYBER-AI-V2-
 cd CYBER-AI-V2
 sudo apt update
 sudo apt install -y curl
