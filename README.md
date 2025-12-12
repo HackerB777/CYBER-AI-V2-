@@ -71,7 +71,7 @@ A futuristic AI-powered cybersecurity operations panel that combines **defensive
 ```bash
 
 git clone https://github.com/HackerB777/CYBER-AI-V2-
-cd CYBER-AI-V2
+cd CYBER-AI-V2-
 sudo apt update
 sudo apt install -y curl
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
